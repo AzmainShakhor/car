@@ -1,0 +1,92 @@
+body{font-family: 'Josefin Sans', sans-serif;
+background-color: antiquewhite;}
+.car-img img{
+    width: 150px;
+    height: 300px;
+    left: 50%;
+transform: translate(-50%);
+position: absolute;
+top: 11%;
+
+}
+
+.back-icon i{
+    position: absolute;
+    font-size: 50px;
+    left: 300%;
+}
+.cart-icon{
+font-size: 45px;
+background: aquamarine;
+height: 60px;
+width: 60px;
+border-radius: 100%;
+left: 50%;
+transform: translate(-50%);
+position: absolute;
+bottom: 1%;
+}
+.cart-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head1{
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 65%;
+
+}
+.para-1{
+    max-width: 95%;
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+    
+}
+.container{
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:
+    14.3px 25.3px 1.9px rgba(0, 0, 0, 0.002),
+    18.3px 32.5px 4.3px rgba(0, 0, 0, 0.005),
+    19.8px 35.1px 7.7px rgba(0, 0, 0, 0.012),
+    21.6px 38.3px 12.8px rgba(0, 0, 0, 0.022),
+    26.5px 47px 21.2px rgba(0, 0, 0, 0.036),
+    39.5px 70.1px 37px rgba(0, 0, 0, 0.05),
+    110px 195px 80px rgba(0, 0, 0, 0.06)
+  ;
+  background-color: aliceblue;
+}
+.car-img2 img{
+    width: 300px;
+    height: 150px;
+    left: 150%;
+transform: translate(-50%);
+position: absolute;
+top: 6%;
+
+}
+.head2{
+    font-weight: 700;
+    position: absolute;
+    left: -150%;
+    transform: translate(-50%);
+    top: 40%;
+
+}
+.para-2{
+    max-width: 95%;
+    position: absolute;
+    bottom: 15%;
+    left: -153%;
+    
+}
